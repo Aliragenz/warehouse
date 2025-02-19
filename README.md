@@ -20,7 +20,7 @@ This Warehouse Management System helps administrators track and manage stock mov
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/yourusername/warehouse-management.git
+git clone https://github.com/Aliragenz/warehouse.git
 cd warehouse-management
 ```
 
