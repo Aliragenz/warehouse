@@ -1,0 +1,56 @@
+body {
+    font-family: "Figtree", sans-serif;
+    background-color: #f8f9fa;
+}
+.dashboard-layout {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+.sidebar {
+    width: 200px;
+    background: #fff;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+.content-area {
+    margin-left: 200px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+.navbar-container {
+    background: #fff;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+.content {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: white;
+}
+
+.pagination .page-link {
+    color: #007bff;
+    transition: background-color 0.3s;
+}
+
+.pagination .page-link:hover {
+    background-color: #e9ecef;
+}
